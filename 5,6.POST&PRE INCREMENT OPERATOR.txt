@@ -1,0 +1,42 @@
+  5.POST INCREMENT OPERATOR
+
+
+CODE:
+
+
+#include <stdio.h>
+
+void main() {
+    int i=5;
+    printf("BEFORE INCREMENT i=%d",i);
+    printf("\nPROCESS i=%d",i++);
+    printf("\nAFTER INCREMENT i=%d",i);
+}
+OUTPUT:
+
+BEFORE INCREMENT i=5
+PROCESS i=5
+AFTER INCREMENT i=6
+
+            __________________________________________________________________________________
+
+
+     6.PRE INCREMENT OPERATOR
+
+CODE:
+
+#include <stdio.h>
+
+void main() {
+    int i=10;
+    printf("BEFORE INCREMENT i=%d",i);
+    printf("\nPROCESS i=%d",++i);
+    printf("\nAFTER INCREMENT i=%d",i);
+}
+OUTPUT:
+
+BEFORE INCREMENT i=10
+PROCESS i=11
+AFTER INCREMENT i=11
+
+
